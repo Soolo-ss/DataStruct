@@ -7,7 +7,8 @@ using std::array;
 using namespace std::chrono_literals;
 
 
-//ÎŞËø¶ÓÁĞringbuffer
+//lock-free
+//based on array ring buffer
 template <typename T>
 class RingBuffer
 {
