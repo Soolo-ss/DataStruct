@@ -23,6 +23,10 @@ public:
 	{
 	}
 
+
+	/*
+	no safe
+	*/
 	size_t size()
 	{
 		return buffer.size();
